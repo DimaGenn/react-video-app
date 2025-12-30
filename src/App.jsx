@@ -14,6 +14,7 @@ function App() {
             key = {video.id}
             title={video.title}
             channelName={video.channelName}
+            clip={video.clip}
             img={video.img} />
         ))
       }
